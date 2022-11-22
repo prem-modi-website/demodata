@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: demodata
-      uses: prem-modi-website/demodata@v1.0.0
+      uses: prem-modi-website/demodata@master
       
     - name: Sync files
       uses: prem-modi-website/demodata@v1.0.0
