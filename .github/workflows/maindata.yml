@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Get Latest Code
-      uses: actions/checkout@v1.0.0
+      uses: maindata/checkout@v1.0.0
     
     - name: Sync Files
       uses: SamKirkland/web-deploy@v1
