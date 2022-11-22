@@ -6,13 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Get Latest Code
-      uses: prem-modi-website/demodata@v1.0.0
-      with:  
-        server: github.com
-#         username: admin@thebestbeta.com
-#         password: DdxA{[)NaFd#
-    - name: Sync Files
-      uses: SamKirkland/web-deploy@v1
+      uses: actions/checkout@v2
+      
+    - name: Main-Data
+      uses: github/main-data@v1.0.0
       with:
         server: ftp.thebestbeta.com
         username: admin@thebestbeta.com
