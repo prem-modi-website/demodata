@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Get Latest Code
-      uses: github/prem-modi-website/demodata@v1
+      uses: github.com/prem-modi-website/demodata@v1
     
     - name: Sync Files
       uses: SamKirkland/web-deploy@v1
