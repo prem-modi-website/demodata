@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Get latest code
-      uses: prem-modi-website/demodata@master
+      uses: actions/checkout@master
       
     - name: Sync files
       uses: prem-modi-website/demodata@v1.0.0
