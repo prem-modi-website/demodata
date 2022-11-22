@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Main-Data
-      uses: github/main-data@v1.0.0
+      uses: github/main-data@v4.9.5
       with:
         server: ftp.thebestbeta.com
         username: admin@thebestbeta.com
